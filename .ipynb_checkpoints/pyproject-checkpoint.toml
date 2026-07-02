@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "credit-score-classification"
+version = "0.1.0"
+description = ""
+authors = ["Simires Costa <costasimires@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^3.0.3"
+numpy = "^2.5.0"
+matplotlib = "^3.11.0"
+scikit-learn = "^1.9.0"
+jupyterlab = "^4.6.1"
+ipykernel = "^7.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
