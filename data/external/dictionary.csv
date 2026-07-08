@@ -20,7 +20,7 @@ Num_Credit_Inquiries,numérica,discreta,preditora,Representa o número de consul
 Credit_Mix,categórica,ordinal,preditora,Representa a classificação do mix de créditos
 Outstanding_Debt,numérica,contínua,preditora,Representa a dívida restante a ser paga (em USD)
 Credit_Utilization_Ratio,numérica,contínua,preditora,Representa a taxa de utilização do cartão de crédito
-Credit_History_Age,numérica,discreta,preditora,Representa a idade do histórico de crédito da pessoa
+Credit_History_Months,numérica,discreta,preditora,Quantidade total de meses do histórico de crédito do cliente
 Payment_of_Min_Amount,categórica,binária,preditora,Representa se apenas o valor mínimo foi pago pela pessoa
 Total_EMI_per_month,numérica,contínua,preditora,Representa os pagamentos mensais do EMI (em USD)
 Amount_invested_monthly,numérica,contínua,preditora,Representa o valor mensal investido pelo cliente (em USD)
