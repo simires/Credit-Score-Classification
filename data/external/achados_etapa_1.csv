@@ -1,5 +1,9 @@
 Problema identificado,Variáveis,Ação prevista
-Valores ausentes,"Monthly_Inhand_Salary, Type_of_Loan, Name, Credit_History_Age, Num_of_Delayed_Payment, Amount_invested_monthly, Num_Credit_Inquiries, Monthly_Balance",Definir estratégia de imputação
-Valores numéricos em formato de string,"Age, Annual_Income, Num_of_Loan, Num_of_Delayed_Payment, Changed_Credit_Limit, Outstanding_Debt, Amount_invested_monthly",Corrigir valores no formato incorreto e converter para número
-Valores inconsistentes com o domínio do problema,"Num_Bank_Accounts, Num_Credit_Card, Delay_from_due_date","Investigar e corrigir, ou substituir por valores ausentes"
+Valores numéricos em formato de string,"Age, Annual_Income, Num_of_Loan, Num_of_Delayed_Payment, Changed_Credit_Limit, Outstanding_Debt, Amount_invested_monthly, Monthly_Balance",Corrigir valores no formato incorreto e converter para número
+Valores discretos em formato contínuo,Num_Credit_Inquiries,Converter para int
+Variáveis que devem ter seus valores transformados,"Credit_History_Age, Payment_of_Min_Amount",Ver qual a melhor abordagem para cada caso
+Valores inconsistentes com o domínio do problema,"Num_Bank_Accounts, Delay_from_due_date","Investigar e corrigir, ou substituir por valores ausentes"
+Ruídos em variáveis categóricas,Verificar todas as variáveis,Investigar e substituir por valores ausentes
 Variável alvo com instâncias desbalanceadas,Credit_Score,"Verificar necessidade de técnicas para balanceamento durante a modelagem, ou validação cruzada"
+Variáveis identificadoras para serem excluídas,"ID, Customer_ID, Name, SSN",Excluir colunas na etapa de limpeza
+Valores ausentes,"Monthly_Inhand_Salary, Type_of_Loan, Name, Credit_History_Age, Num_of_Delayed_Payment, Amount_invested_monthly, Num_Credit_Inquiries, Monthly_Balance",Definir estratégia de imputação
