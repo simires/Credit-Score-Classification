@@ -1,0 +1,25 @@
+,Variável,Tipo,Subtipo,Papel,Descrição
+2,Month,categórica,ordinal,preditora,Mês do ano
+4,Age,numérica,discreta,preditora,Idade do cliente
+6,Occupation,categórica,nominal,preditora,Ocupação do cliente
+7,Annual_Income,numérica,contínua,preditora,Renda anual do cliente
+8,Monthly_Inhand_Salary,numérica,contínua,preditora,Salário base mensal do cliente
+9,Num_Bank_Accounts,numérica,discreta,preditora,Número de contas bancárias que o cliente possui
+10,Num_Credit_Card,numérica,discreta,preditora,Número de outros cartões de crédito detidos por um cliente
+11,Interest_Rate,numérica,discreta,preditora,Taxa de juros do cartão de crédito
+12,Num_of_Loan,numérica,discreta,preditora,Número de empréstimos feitos no banco pelo cliente
+13,Type_of_Loan,categórica,nominal,preditora,Tipos de empréstimo tomados por um cliente
+14,Delay_from_due_date,numérica,discreta,preditora,Representa o número médio de dias de atraso desde a data de pagamento
+15,Num_of_Delayed_Payment,numérica,discreta,preditora,Número médio de pagamentos atrasados por uma pessoa
+16,Changed_Credit_Limit,numérica,contínua,preditora,Representa a variação percentual no limite do cartão de crédito
+17,Num_Credit_Inquiries,numérica,discreta,preditora,Representa o número de consultas de cartão de crédito
+18,Credit_Mix,categórica,ordinal,preditora,Representa a classificação do mix de créditos
+19,Outstanding_Debt,numérica,contínua,preditora,Representa a dívida restante a ser paga (em USD)
+20,Credit_Utilization_Ratio,numérica,contínua,preditora,Representa a taxa de utilização do cartão de crédito
+21,Credit_History_Months,numérica,discreta,preditora,Quantidade total de meses do histórico de crédito do cliente
+22,Payment_of_Min_Amount,categórica,binária,preditora,Representa se apenas o valor mínimo foi pago pela pessoa
+23,Total_EMI_per_month,numérica,contínua,preditora,Representa os pagamentos mensais do EMI (em USD)
+24,Amount_invested_monthly,numérica,contínua,preditora,Representa o valor mensal investido pelo cliente (em USD)
+25,Payment_Behaviour,categórica,nominal,preditora,Representa o comportamento de pagamento do cliente
+26,Monthly_Balance,numérica,contínua,preditora,Representa o valor do saldo mensal do cliente (em USD)
+27,Credit_Score,categórica,ordinal,alvo,"Representa a faixa de pontuação de crédito (ruim, padrão, bom)"
